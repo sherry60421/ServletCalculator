@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="helloWorldServlet" method="post">
+	Login name:<input type="text" name="username" /><br/>
+	Password:<input type="password" name="password" /><br/>
+	<select name="company">
+		<option value="csc">中鋼</option>
+		<option value="dsc">中龍</option>
+		<option value="icsc">中冠</option>
+	</select>
+	<select name="company" multiple>
+		<option value="csc">中鋼</option>
+		<option value="dsc">中龍</option>
+		<option value="icsc">中冠</option>
+	</select>
+	<input type="checkbox" name="top" value="top1">top1
+	<input type="checkbox" name="top" value="top2">top2
+	<input type="radio" name="radio" value="radio1">radio1
+	<input type="radio" name="radio" value="radio2">radio2
+	<input type="hidden" name="hidden" value="隱藏der">
+	<textarea name="textarea" rows="" cols=""></textarea>
+	<input type="submit" />
+</form>
+</body>
+</html>
